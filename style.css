@@ -17,8 +17,16 @@
 header {
    position:relative;
    height: 8rem;
-   background: #00fa9a;
-   box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
+   /*background: #38b48b;*/
+ 	background-size: 20px 20px;
+ 	background-color: #38b48b;
+ 	background-image:
+ 	linear-gradient(45deg, rgba(56, 142, 60, 0.5) 25%, transparent 25%,
+ 	 transparent 50%, rgba(56, 142, 60, 0.5) 50%, rgba(56, 142, 60, 0.5) 75%,
+ 	 transparent 75%, transparent),
+ 	linear-gradient(-45deg, rgba(56, 142, 60, 0.5) 25%, transparent 25%,
+ 	 transparent 50%, rgba(56, 142, 60, 0.5) 50%, rgba(56, 142, 60, 0.5) 75%,
+ 	 transparent 75%, transparent);
  }
 
   header h1{
@@ -26,12 +34,12 @@ header {
     top: 3rem;
     left: 3rem;
     font-size: 2rem;
-    color: block;
+    color: black;
   }
 
 nav {
   padding: 1rem 3rem ;
-  background: #333;
+  background: #006e54;
 }
 
   nav ul{
@@ -55,20 +63,32 @@ main{
   section{
     flex: 3;
     padding: 3rem;
-    background: #EEE;
+    background: #93ca76;
   }
 
-    article{
+    /*article{
       min-height: 8rem;
       padding: 1rem;
       margin-bottom: 2rem;
       background: #FFF;
-    }
-
+    }*/
+    article{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #000000;/*文字色*/
+    background: #FFF;
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+.box2 p {
+    margin: 0;
+    padding: 0;
+}
   aside{
     flex: 1;
     padding: 3rem;
-    background: #DDD;
+    background: #93ca76;
   }
 
 footer {
